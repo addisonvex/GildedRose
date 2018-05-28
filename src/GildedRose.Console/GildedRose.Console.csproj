@@ -41,8 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="RefinedItems\AgedBrieItem.cs" />
+    <Compile Include="RefinedItems\BackstagePassItem.cs" />
+    <Compile Include="RefinedItems\NormalItem.cs" />
+    <Compile Include="RefinedItems\ItemFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RefinedItems\ConjuredItem.cs" />
+    <Compile Include="RefinedItems\LegendaryItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
